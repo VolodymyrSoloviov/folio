@@ -27,7 +27,7 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 // Пути к нашим модулям JS
 var moduleJs = [
   'app/js/portfolio-galerry.js', 
-  'app/js/second.js', 
+  'app/js/testimonial-carousel.js', 
   'app/js/third.js', 
   'app/js/main.js'
   ];
@@ -35,12 +35,15 @@ var moduleJs = [
 var vendorJs = [
   'app/bower/jquery/dist/jquery.min.js',
   'app/bower/fancybox/dist/jquery.fancybox.min.js',
+  'app/bower/owl.carousel/dist/owl.carousel.min.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [
   'app/bower/normalize.css/normalize.css',
   'app/scss/layout/fontawesome-all.scss',
   'app/bower/fancybox/dist/jquery.fancybox.min.css',
+  'app/bower/owl.carousel/dist/assets/owl.carousel.min.css',
+  'app/bower/owl.carousel/dist/assets/owl.theme.default.min.css',
   ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',
