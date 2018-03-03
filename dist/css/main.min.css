@@ -3213,4 +3213,84 @@ readers do not read off random characters that represent icons */
   font-size: 13px;
   color: #e2534b; }
 
+.sponsor {
+  height: 200px;
+  background-color: #bebebe; }
+
+.sponsor__list {
+  width: 100%;
+  height: 200px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.bio {
+  background-color: #e2534b;
+  padding: 50px 0 80px; }
+
+.bio__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.bio__bottom {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.bio__left,
+.bio__right {
+  width: 48.84%; }
+
+.bio__left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.bio__author {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 230px; }
+
+.bio__author-name {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  text-transform: uppercase; }
+
+.bio__author-pic {
+  margin-top: 30px;
+  width: 100%;
+  height: 230px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden; }
+
+.socials_bio {
+  margin-top: 50px; }
+
+.socials__icon_bio {
+  color: #e2534b; }
+
+.bio__title {
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 48px; }
+
+.bio__text {
+  line-height: 18px; }
+
 /*# sourceMappingURL=maps/main.min.css.map */

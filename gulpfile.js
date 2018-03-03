@@ -28,7 +28,7 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 var moduleJs = [
   'app/js/portfolio-galerry.js', 
   'app/js/testimonial-carousel.js', 
-  'app/js/third.js', 
+  'app/js/sponsor-carousel.js', 
   'app/js/main.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
