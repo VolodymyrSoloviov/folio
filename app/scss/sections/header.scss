@@ -16,9 +16,14 @@
 }
 
 .logo {
+	margin-left: 25px;
+}
+
+.logo__link {
+	text-decoration: none;
 	font-family: 'Bebas Neue';
 	font-size: 48px;
-	margin-left: 25px;
+	color: $white;
 }
 
 .nav {
