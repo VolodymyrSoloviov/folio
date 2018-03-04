@@ -3293,4 +3293,77 @@ readers do not read off random characters that represent icons */
 .bio__text {
   line-height: 18px; }
 
+.footer {
+  height: 530px;
+  padding: 60px 0 35px;
+  background-color: #59a386;
+  background: url("../img/background/footer-bg.jpg") center center no-repeat; }
+
+.footer__wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.footer__number-link {
+  display: block;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  font-size: 48px;
+  color: #fff;
+  font-style: normal; }
+
+.footer__email-link {
+  display: block;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+  color: #fff;
+  border: 5px solid #fff;
+  padding: 2px 157px;
+  font-style: normal; }
+
+.footer__address {
+  margin-top: 20px;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  font-style: normal;
+  text-transform: uppercase; }
+
+.footer__copyright {
+  margin-top: 50px;
+  font-weight: 700;
+  font-style: normal; }
+
+.scroll-btn {
+  position: fixed;
+  bottom: -50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+  transition: .3s;
+  cursor: pointer;
+  transition: .3s;
+  color: #000;
+  opacity: .6; }
+  .scroll-btn:before {
+    font-family: FontAwesome;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    content: "\f106";
+    font-size: 30px; }
+  .scroll-btn:hover {
+    opacity: 1; }
+
+.scroll-btn__active {
+  bottom: 50px; }
+
 /*# sourceMappingURL=maps/main.min.css.map */

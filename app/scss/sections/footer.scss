@@ -1,0 +1,46 @@
+.footer {
+	height: 530px;
+	padding: 60px 0 35px;
+	background-color: #59a386;
+	background: url('../img/background/footer-bg.jpg') center center no-repeat;
+}
+
+.footer__wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__number-link {
+	display: block;
+	text-decoration: none;
+	font-family: 'Bebas Neue';
+	font-size: 48px;
+	color: $white;
+	font-style: normal;
+}
+
+.footer__email-link {
+	display: block;
+	text-decoration: none;
+	font-family: 'Bebas Neue';
+	font-size: 60px;
+	color: $white;
+	border: 5px solid #fff;
+	padding: 2px 157px;
+	font-style: normal;
+}
+
+.footer__address {
+	margin-top: 20px;
+	font-family: 'Bebas Neue';
+	font-size: 30px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.footer__copyright {
+	margin-top: 50px;
+	font-weight: 700;
+	font-style: normal;
+}
