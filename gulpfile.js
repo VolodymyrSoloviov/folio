@@ -29,7 +29,7 @@ var moduleJs = [
   'app/js/portfolio-galerry.js', 
   'app/js/testimonial-carousel.js', 
   'app/js/scroll-btn.js', 
-  'app/js/main.js'
+  'app/js/smooth-scrolling.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
