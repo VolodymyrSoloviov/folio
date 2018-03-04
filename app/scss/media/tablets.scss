@@ -1,5 +1,91 @@
-// @media screen and (max-width: 768px) {
-// 	.container {
-// 		width: 460px;
-// 	}
-// }
+@media screen and (max-width: 768px) {
+	.container {
+		width: 460px;
+	}
+
+	.header__top {
+		height: 250px;
+	}
+
+	.menu-adaptive {
+		display: block;
+	}
+
+	.nav-socials {
+		display: none;
+	}
+
+	.portfolio__item_big {
+		width: 100%;
+	}
+
+	.testimonial__quote {
+		font-size: 22px;
+	}
+
+	.testimonial__author {
+		font-size: 18px;
+	}
+
+	.main {
+		flex-wrap: wrap;
+	}
+
+	.main__left,
+	.main__right {
+		width: 100%;
+	}
+
+	.main__left {
+		margin-bottom: 20px;
+	}
+
+	.blog__article-info {
+		width: 370px;
+	}
+
+	.sponsor__list {
+		flex-wrap: wrap;
+	}
+
+	.bio__bottom {
+		flex-wrap: wrap;
+	}
+
+	.bio__left,
+	.bio__right {
+		width: 100%;
+	}
+
+	.bio__right {
+		margin-top: 20px;
+		text-align: justify;
+	}
+
+	.bio__title {
+		text-align: center;
+	}
+
+	.footer__number-link {
+		font-size: 28px;
+	}
+
+	.footer__email {
+		margin-top: 30px;
+	}
+
+	.footer__email-link {
+		font-size: 28px;
+		padding: 2px 80px;
+	}
+
+	.footer__address {
+		margin-top: 30px;
+		font-size: 28px;
+	}
+	
+	.footer__copyright {
+		margin-top: 85px;
+	}
+
+}

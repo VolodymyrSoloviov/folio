@@ -1,5 +1,81 @@
-// @media screen and (max-width: 480px) {
-// 	.container {
-// 		width: 95%;
-// 	}
-// }
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+
+	.logo {
+		margin-left: 0;
+	}
+
+	.menu {
+		padding: 20px 10px;
+	}
+
+	.portfolio__tag-list {
+		flex-wrap: wrap;
+	}
+
+	.portfolio__item_tall,
+	.portfolio__item_square,
+	.portfolio__item_wide {
+		width: 100%;
+	}
+
+	.testimonial__quote {
+		font-size: 18px;
+	}
+
+	.testimonial__author {
+		font-size: 16px;
+	}
+
+	.sponsor {
+		height: auto;
+	}
+
+	.sponsor__list {
+		justify-content: center;
+	}
+
+	.sponsor__item {
+		text-align: center;
+		width: 100%;
+	}
+
+	.footer {
+		height: auto;
+	}
+
+	.footer__number-link {
+		font-size: 22px;
+	}
+
+	.footer__email-link {
+		font-size: 22px;
+		padding: 2px 30px;
+	}
+
+	.footer__address {
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.footer__copyright {
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	.scroll-btn {
+		width: 30px;
+		height: 30px;
+		right: 20px;
+
+		&:before {
+			font-size: 21px;
+		}
+	}
+
+	.scroll-btn__active {
+		bottom: 20px;
+	}
+}

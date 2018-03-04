@@ -14,7 +14,7 @@
 
 <div class="wrapper">
   <div class="maincontent">
-    <div class="header">
+    <div class="header" id="home">
       <div class="header__top"></div>
       <div class="header__bottom">
         <div class="container">
@@ -22,6 +22,7 @@
             <div class="logo">
               <a href="index.html" class="logo__link">.FOLIO</a>
             </div>
+            <a data-fancybox data-src="#menu" href="javascript:;" class="menu-adaptive">&#9776;</a>
             <div class="nav-socials">
               <nav class="nav">
                 <ul class="nav__list">
@@ -41,7 +42,7 @@
               <div class="socials">
                 <ul class="socials__list">
                   <li class="socials__item">
-                    <a href="#" class="socials__link">
+                    <a href="https://www.google.com.ua/" class="socials__link">
                       <i class="fab fa-linkedin socials__icon"></i>
                     </a>
                   </li>
@@ -576,7 +577,7 @@
                           <img src="../img/content/actor.jpg" alt="" class="blog__article-img">
                         </div>
                         <div class="blog__article-info">
-                          <div class="blog__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum, non posuere libero posuere.</div>
+                          <div class="blog__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit velit id dolor fermentum, non posuere libero posuere.</div>
                           <time class="blog__date">
                             <span class="blog__date-day">26</span>
                             <span class="blog__date-mon">Aug,</span>
@@ -593,7 +594,7 @@
                           <img src="../img/content/actress.jpg" alt="" class="blog__article-img">
                         </div>
                         <div class="blog__article-info">
-                          <div class="blog__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum, non posuere libero posuere.</div>
+                          <div class="blog__article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit velit id dolor fermentum, non posuere libero posuere.</div>
                           <time class="blog__date">
                             <span class="blog__date-day">26</span>
                             <span class="blog__date-mon">Aug,</span>
@@ -703,6 +704,58 @@
 </div> <!-- end wrapper -->
   
   <div class="scroll-btn"></div>
+
+  <div class="menu popup" id="menu">
+    <div class="menu__top">
+      <div class="logo logo_menu">
+        <a href="javascript:void(0)" onclick="slowScroll('#home')" class="logo__menu-link">.FOLIO</a>
+      </div>
+      <a href="javascript:void(0)" class="menu__close">
+        <i class="fas fa-times menu__close-icon"></i>
+      </a>
+    </div>
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#home')" class="menu__link">Home</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#work')" class="menu__link">Work</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#news')" class="menu__link">News</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#bio')" class="menu__link">Bio</a>
+      </li>
+      <li class="menu__item">
+        <a href="javascript:void(0)" onclick="slowScroll('#contact')" class="menu__link">Contact</a>
+      </li>
+    </ul>
+    <div class="socials">
+      <ul class="socials__list socials__list_menu">
+        <li class="socials__item">
+          <a href="#" class="socials__link">
+            <i class="fab fa-linkedin socials__icon"></i>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="#" class="socials__link">
+            <i class="fab fa-facebook-f socials__icon"></i>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="#" class="socials__link">
+            <i class="fab fa-flickr socials__icon"></i>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="#" class="socials__link">
+            <i class="fab fa-twitter socials__icon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div> <!-- end menu-burger -->
   
   <script src="js/vendor.min.js"></script>
   <script src="js/main.min.js"></script>

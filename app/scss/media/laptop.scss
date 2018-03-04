@@ -1,5 +1,35 @@
-// @media screen and (max-width: 992px) {
-// 	.container {
-// 		width: 730px;
-// 	}
-// }
+@media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
+
+	.header__top {
+		height: 350px;
+	}
+
+	.portfolio__item_tall {
+		width: 50%;
+		background-position: top center;
+	}
+
+	.portfolio__item_square {
+		width: 50%;
+	}
+
+	.testimonial__quote {
+		font-size: 30px;
+	}
+
+	.testimonial__author {
+		font-size: 21px;
+	}
+
+	.footer__email-link {
+		font-size: 56px;
+		padding: 2px 140px;
+	}
+
+	.footer__copyright {
+		margin-top: 55px;
+	}
+}
