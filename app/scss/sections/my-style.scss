@@ -28,19 +28,19 @@
 	transition: .3s;
 	color: #000;
 	opacity: .6;
-
-	&:before {
-		font-family: FontAwesome;
-    position: absolute;
-    left: 25%;
-    bottom: 0;
-    content: "\f106";
-    font-size: 30px;
-	}
+	outline: none;
 
 	&:hover {
 		opacity: 1;
 	}
+}
+
+.scroll-btn__icon {
+  position: absolute;
+  left: 25%;
+  bottom: 3px;
+  content: "\f106";
+  font-size: 30px;
 }
 
 .scroll-btn__active {

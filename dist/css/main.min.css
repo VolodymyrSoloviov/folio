@@ -3363,16 +3363,17 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   transition: .3s;
   color: #000;
-  opacity: .6; }
-  .scroll-btn:before {
-    font-family: FontAwesome;
-    position: absolute;
-    left: 25%;
-    bottom: 0;
-    content: "\f106";
-    font-size: 30px; }
+  opacity: .6;
+  outline: none; }
   .scroll-btn:hover {
     opacity: 1; }
+
+.scroll-btn__icon {
+  position: absolute;
+  left: 25%;
+  bottom: 3px;
+  content: "\f106";
+  font-size: 30px; }
 
 .scroll-btn__active {
   bottom: 50px; }
@@ -3569,11 +3570,7 @@ readers do not read off random characters that represent icons */
     margin-top: 60px;
     text-align: center; }
   .scroll-btn {
-    width: 30px;
-    height: 30px;
     right: 20px; }
-    .scroll-btn:before {
-      font-size: 21px; }
   .scroll-btn__active {
     bottom: 20px; } }
 
